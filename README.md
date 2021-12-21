@@ -1,3 +1,5 @@
+## 중앙대학교 AI학과 21학번 20210804 김은기 --- Open Source Final Project ReadMe File
+-------
 * Project Title
 #### Image classification through scikit learn packages.
 -------
