@@ -17,30 +17,30 @@
 --------
 * Tech used
 > #### 주어진 자료를 train data, test data로 구분한다.
->     > #### 방법 : test_size 사용하기 (X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, "test_size=0.3", random_state=0)
+>     > 방법 : test_size 사용하기 (X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, "test_size=0.3", random_state=0)
 --------
 > #### 주어진 자료를 학습시킨다.
->     > #### 방법 : 총 3가지의 단계를 거친다.
->     >      > #### 1. 선언 단계 : 변수 = algorithm 선언(parameter의 선언)  ex) per = sklearn.linear_model.Perceptron()
->     >      > #### 2. 학습 단계 : fit(train data) 함수 이용    ex)  per.fit(X_train, y_train)
->     >      > #### 3. 예측 단계 : predict(test data) 함수 이용     ex) y_pred = per.predict(X_test)
+>     > 방법 : 총 3가지의 단계를 거친다.
+>     >      > 1. 선언 단계 : 변수 = algorithm 선언(parameter의 선언)  ex) per = sklearn.linear_model.Perceptron()
+>     >      > 2. 학습 단계 : fit(train data) 함수 이용    ex)  per.fit(X_train, y_train)
+>     >      > 3. 예측 단계 : predict(test data) 함수 이용     ex) y_pred = per.predict(X_test)
 --------
 * Framework used
 #### 'DJango' used
 --------
 * Features
 > #### 수업시간에 다루지 않았던 3개의 algorithms을 이용하였다.
->     > 1. #### Support Vector Machines (선언법 : from sklearn.svm import SVC)
->     > 2. #### K-Nearest Neighbors (선언법 : from sklearn.neighbors import KNeighborsClassifier)
->     > 3. #### Gaussian Process Classification (선언법 : from sklearn.gaussian_process import GaussianProcessClassifier)
+>     > 1. Support Vector Machines (선언법 : from sklearn.svm import SVC)
+>     > 2. K-Nearest Neighbors (선언법 : from sklearn.neighbors import KNeighborsClassifier)
+>     > 3. Gaussian Process Classification (선언법 : from sklearn.gaussian_process import GaussianProcessClassifier)
 --------
 > #### 최대의 Accuracy를 도출해내는 Parameter를 각각 변화, 대입시켰다.
->     > 1. #### random_state = 0 (fixed)
->     > 2. #### C값의 변화
->     > 3. #### max_iter값의 변화
->     > 4. #### li_ratio값의 변화
->     > 5. #### degree값의 변화
->     > 6. #### 이 외에도 kernel의 종류, tol값의 변화 등 다양한 parameter를 사용하였다.
+>     > 1. random_state = 0 (fixed)
+>     > 2. C값의 변화
+>     > 3. max_iter값의 변화
+>     > 4. li_ratio값의 변화
+>     > 5. degree값의 변화
+>     > 6. 이 외에도 kernel의 종류, tol값의 변화 등 다양한 parameter를 사용하였다.
 --------
 * Code Examples, Test Results
 1. ## Perceptron (Parameter 설정 X)
