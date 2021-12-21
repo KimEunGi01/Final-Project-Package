@@ -6,9 +6,6 @@
 2. #### 다양한 algorithms을 사용하여 classification, regression과 같은 문제를 해결할 수 있다.
 3. #### Parameter를 스스로 조절하여, 최대의 Accurcy를 도출해낼 수 있다.
 --------
-* Build Status
-####
---------
 * Code Style
 #### Code style = Python (Jupyter notebook)
 --------
@@ -42,7 +39,7 @@
 >     > 5. degree값의 변화
 >     > 6. 이 외에도 kernel의 종류, tol값의 변화 등 다양한 parameter를 사용하였다.
 --------
-* Code Examples, Test Results
+* Code Examples, Test Results, 각각의 경우에서의 Build Status
 1. ## Perceptron (Parameter 설정 X)
 ![perceptron parameter 설정 x](https://user-images.githubusercontent.com/92518995/146891023-316ca279-d9af-49a2-bad5-bb9619eaf446.PNG)
 --------
