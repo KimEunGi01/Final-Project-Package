@@ -35,5 +35,8 @@
 >     > 6. #### 이 외에도 kernel의 종류, tol값의 변화 등 다양한 parameter를 사용하였다.
 --------
 * Code Examples
-1. #### Perceptron used
+1-1. #### Perceptron (Parameter 설정 X)
 ![perceptron parameter 설정 x](https://user-images.githubusercontent.com/92518995/146891023-316ca279-d9af-49a2-bad5-bb9619eaf446.PNG)
+--------
+1-2. #### Perceptron (Parameter 설정 O --- Accuaracy의 최댓값)
+![perceptron parameter 설정 o](https://user-images.githubusercontent.com/92518995/146891360-2545febc-fe16-47fb-97b4-131af0893efe.PNG)
