@@ -91,4 +91,5 @@
 --------
 * Conclusion
 ### 총 5개의 다른 algorithms으로 classification을 진행하였고, 그 결과 Support Vector Machine으로 분류한 것이 가장 정확도가 높게 측정되었다.
+### Support Vector Machines으로 분류했을 때의 Accuracy : 0.97 (97%의 정확도)
 ---------
