@@ -1,2 +1,3 @@
-* 1. Project Title
+* Project Title
 ### image classification through skicit learn packages.
+-------
