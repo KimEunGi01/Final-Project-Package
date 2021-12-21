@@ -16,7 +16,14 @@
 #### MIT License
 --------
 * Tech used
-1. 
+> #### 주어진 자료를 train data, test data로 구분한다.
+>     > #### 방법 : test_size 사용하기 (X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, ##test_size=0.3, random_state=0)
+--------
+> #### 주어진 자료를 학습시킨다.
+>     > #### 방법 : 총 3가지의 단계를 거친다.
+>     >      > #### 1. 선언 단계 : 변수 = algorithm 선언(parameter의 선언)  ex) per = sklearn.linear_model.Perceptron()
+>     >      > #### 2. 학습 단계 : fit(train data) 함수 이용    ex)  per.fit(X_train, y_train)
+>     >      > #### 3. 예측 단계 : predict(test data) 함수 이용     ex) y_pred = per.predict(X_test)
 --------
 * Framework used
 #### 'DJango' used
@@ -26,6 +33,7 @@
 >     > 1. #### Support Vector Machines (선언법 : from sklearn.svm import SVC)
 >     > 2. #### K-Nearest Neighbors (선언법 : from sklearn.neighbors import KNeighborsClassifier)
 >     > 3. #### Gaussian Process Classification (선언법 : from sklearn.gaussian_process import GaussianProcessClassifier)
+--------
 > #### 최대의 Accuracy를 도출해내는 Parameter를 각각 변화, 대입시켰다.
 >     > 1. #### random_state = 0 (fixed)
 >     > 2. #### C값의 변화
@@ -85,4 +93,5 @@
 #### 방법 : (pip3 install -U scikit-learn)
 --------
 * Conclusion
-* ## 총 5개의 다른 algorithms으로 classification을 진행하였고, 그 결과 Support Vector Machine으로 분류한 것이 가장 정확도가 높게 측정되었다.
+### 총 5개의 다른 algorithms으로 classification을 진행하였고, 그 결과 Support Vector Machine으로 분류한 것이 가장 정확도가 높게 측정되었다.
+---------
