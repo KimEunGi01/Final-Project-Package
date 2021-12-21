@@ -36,3 +36,4 @@
 --------
 * Code Examples
 1. #### Perceptron used
+![perceptron parameter 설정 x](https://user-images.githubusercontent.com/92518995/146891023-316ca279-d9af-49a2-bad5-bb9619eaf446.PNG)
