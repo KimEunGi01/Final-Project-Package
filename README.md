@@ -34,7 +34,7 @@
 >     > 5. #### degree값의 변화
 >     > 6. #### 이 외에도 kernel의 종류, tol값의 변화 등 다양한 parameter를 사용하였다.
 --------
-* Code Examples
+* Code Examples, Test Results
 1. #### Perceptron (Parameter 설정 X)
 ![perceptron parameter 설정 x](https://user-images.githubusercontent.com/92518995/146891023-316ca279-d9af-49a2-bad5-bb9619eaf446.PNG)
 --------
@@ -84,3 +84,5 @@
 #### jupyter notebook에 scikit learn packages를 설치해야 합니다.
 #### 방법 : (pip3 install -U scikit-learn)
 --------
+* Conclusion
+* ## 총 5개의 다른 algorithms으로 classification을 진행하였고, 그 결과 Support Vector Machine으로 분류한 것이 가장 정확도가 높게 측정되었다.
