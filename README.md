@@ -35,3 +35,4 @@
 >     > 6. #### 이 외에도 kernel의 종류, tol값의 변화 등 다양한 parameter를 사용하였다.
 --------
 * Code Examples
+1. #### Perceptron used
